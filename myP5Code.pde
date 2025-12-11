@@ -1,7 +1,9 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(100,160,400,300);
+
+
 }
 
 
@@ -11,10 +13,19 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  ellipse(240,200,250,330)
-  ellipse(110,90,80,70)
-  ellipse(60,90,80,70)
-  ellipse(40,90,40,40)
+  //shell
+  fill(250,150,150);
+  ellipse(230,200,250,330)
+  //eye ball
+  fill(245,240,50,10)
+  ellipse(110,90,80,70);
+  ellipse(60,90,80,70);
+  //inner eye
+  ellipse(40,90,40,40);
+  ellipse(100,90,40,40);
+  //small inner eye
+  ellipse(30,90,20,20);
+  ellipse(90,90,20,20);
 
 
   line(100,350,100,120)
@@ -22,7 +33,8 @@ void draw(){
   line(50,350,50,120)
   line(55,350,55,120)
 
-
+  //shell
+  fill(80,20,20);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
