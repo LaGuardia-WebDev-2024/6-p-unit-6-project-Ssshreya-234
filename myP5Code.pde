@@ -17,17 +17,25 @@ void draw(){
   fill(250,150,150);
   ellipse(230,200,250,330)
   //eye ball
-  fill(245,240,50,10)
+  fill(200,200,90)
   ellipse(110,90,80,70);
   ellipse(60,90,80,70);
   //inner eye
+  fill(255,50,20)
   ellipse(40,90,40,40);
   ellipse(100,90,40,40);
   //small inner eye
+  fill(0,0,0,1000)
   ellipse(30,90,20,20);
   ellipse(90,90,20,20);
+  //bottom of shell
+  fill(117,216,230)
+  ellipse(200,360,350,50)
 
 
+  //eye
+  strokeWeight(5);
+  stroke(117,216,230)
   line(100,350,100,120)
   line(105,350,105,120)
   line(50,350,50,120)
