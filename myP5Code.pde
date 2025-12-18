@@ -46,19 +46,50 @@ void draw(){
   ellipse(315,155,20,40)
   ellipse(329,230,15,25)
 
-
+  //swirl
+  noStroke()
+  fill(128,0,0)
+  ellipse(230,320,20,40)
+  ellipse(225,310,20,40)
+  ellipse(220,300,20,40)
+  ellipse(215,290,20,40)
+  ellipse(210,280,20,40)
+  ellipse(205,270,20,40)
+  ellipse(200,270,20,40)
+  ellipse(199,265,20,40)
+  ellipse(197,260,20,40)
+  ellipse(195,255,20,40)
+  ellipse(197,250,20,40)
+  ellipse(195,245,20,40)
+  ellipse(195,240,20,40)
+  ellipse(195,235,20,40)
+  ellipse(195,235,20,40)
+  ellipse(195,230,20,40)
+  ellipse(197,225,20,40)
+  ellipse(199,220,20,40)
+  ellipse(200,215,20,40)
+  ellipse(205,205,20,40)
+  ellipse(210,200,20,40)
+  ellipse(209,200,20,40)
+  ellipse(212,195,20,40)
+  ellipse(215,192,20,40)
+  
+  
   fill(117,216,230);
   beginShape();
-  vertex(17,377)
-  vertex(37,377)
-  vertex(347,342)
-  vertex(356,370)
+  strokeWeight(1)
+  vertex(21,380)
+  vertex(63,330)
+  vertex(347,328)
+  vertex(356,380)
   endShape();
 
   //shell
   strokeWeight(1)
   stroke(0,0,0)
   fill(80,20,20);
+
+  
 }
 
 //🟡Extra FUN Features Ms. Hall Added
