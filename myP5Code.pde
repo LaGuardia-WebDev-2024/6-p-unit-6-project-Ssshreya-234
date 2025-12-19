@@ -73,7 +73,21 @@ void draw(){
   ellipse(209,200,20,40)
   ellipse(212,195,20,40)
   ellipse(215,192,20,40)
-  
+  ellipse(217,190,20,40)
+  ellipse(220,187,20,40)
+  ellipse(224,183,20,50)
+  ellipse(227,180,30,40)
+  ellipse(230,177,30,40)
+  ellipse(235,180,30,40)
+  ellipse(238,185,30,40)
+  ellipse(243,190,30,40)
+  ellipse(248,195,20,40)
+  ellipse(254,200,20,40)
+  ellipse(260,205,20,40)
+  ellipse(255,210,20,60)
+  ellipse(252,215,20,60)
+  ellipse(250,220,20,60)
+  ellipse(246,225,30,50)
   
   fill(117,216,230);
   beginShape();
